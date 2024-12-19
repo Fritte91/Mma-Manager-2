@@ -1,0 +1,55 @@
+/* Navbar Styles */
+nav {
+    background-color: #2a2a2a; /* Darker nav background */
+    padding: 15px; /* Padding for the navbar */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around; /* Space items evenly */
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px; /* Padding for links */
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background-color: #ff4d4d; /* Highlight color */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
+/* Dropdown Menu Styles */
+nav ul li {
+    position: relative; /* Position relative for dropdown */
+}
+
+nav ul .dropdown {
+    display: none; /* Hide dropdown by default */
+    position: absolute; /* Position it absolutely */
+    top: 100%; /* Position below the parent */
+    left: 0; /* Align to the left */
+    background-color: #2a2a2a; /* Background color for dropdown */
+    padding: 10px 0; /* Padding for dropdown */
+    z-index: 1000; /* Ensure it appears above other elements */
+}
+
+nav ul li:hover .dropdown {
+    display: block; /* Show dropdown on hover */
+}
+
+nav .dropdown li {
+    width: 200px; /* Set width for dropdown items */
+}
+
+nav .dropdown a {
+    padding: 10px 15px; /* Padding for dropdown links */
+    display: block; /* Make links block elements */
+}
+
+nav .dropdown a:hover {
+    background-color: #ff4d4d; /* Highlight color for dropdown links */
+}

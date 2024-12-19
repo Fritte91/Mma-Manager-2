@@ -1,0 +1,34 @@
+/* General Styles for Guides */
+#guides {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the guides */
+    margin: 20px; /* Margin around the section */
+}
+
+/* Pill Shape Styles */
+.guide-pill {
+    background-color: #2a2a2a; /* Dark background */
+    color: #ffffff; /* White text */
+    border-radius: 25px; /* Pill shape */
+    padding: 15px 20px; /* Padding for the pill */
+    margin: 10px 0; /* Space between pills */
+    width: 80%; /* Width of the pill */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s; /* Smooth background transition */
+    position: relative; /* Position relative for content */
+}
+
+/* Hover Effect */
+.guide-pill:hover {
+    background-color: #ff4d4d; /* Change background on hover */
+}
+
+/* Hidden Content Styles */
+.guide-content {
+    display: none; /* Initially hidden */
+    padding: 10px; /* Padding for content */
+    background-color: #1c1c1c; /* Darker background for content */
+    border-radius: 10px; /* Rounded corners for content */
+    margin-top: 10px; /* Space above content */
+}

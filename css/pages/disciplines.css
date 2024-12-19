@@ -1,0 +1,80 @@
+/* General Styles for Disciplines Section */
+#disciplines {
+    background-color: #1c1c1c; /* Dark background for the section */
+    color: #ffffff; /* White text for better readability */
+    padding: 20px; /* Padding around the section */
+    border-radius: 10px; /* Rounded corners for the section */
+    margin: 20px 0; /* Margin around the section */
+}
+
+/* Section Headings */
+#disciplines h2 {
+    color: #ff4d4d; /* Highlight color for main heading */
+    text-align: center; /* Center align main heading */
+    margin-bottom: 15px; /* Space below main heading */
+    font-size: 2em; /* Larger font size for main heading */
+}
+
+.discipline-category {
+    margin-bottom: 30px; /* Space below each category */
+}
+
+.discipline-category h3 {
+    color: #ff4d4d; /* Highlight color for subheadings */
+    margin-top: 20px; /* Space above subheadings */
+    font-size: 1.5em; /* Font size for subheadings */
+}
+
+.discipline-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-around; /* Space items evenly */
+}
+
+.discipline-item {
+    background-color: #2a2a2a; /* Dark background for items */
+    border-radius: 5px; /* Rounded corners */
+    padding: 15px; /* Padding inside items */
+    margin: 10px; /* Margin between items */
+    text-align: center; /* Center align text */
+    width: 30%; /* Set a width for each item */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    position: relative; /* Position for hover effect */
+}
+
+.discipline-image {
+    width: 100px; /* Set a fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space below images */
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+.discipline-description {
+    display: none; /* Hide description by default */
+    position: absolute; /* Position it absolutely */
+    bottom: 10px; /* Position it above the bottom */
+    left: 50%; /* Center it horizontally */
+    transform: translateX(-50%); /* Adjust for centering */
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background for description */
+    color: #fff; /* White text */
+    padding: 5px; /* Padding for description */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Show description on hover */
+.discipline-item:hover .discipline-description {
+    display: block; /* Show description on hover */
+}
+
+/* Heading Styles */
+.discipline-item h4 {
+    color: #ff4d4d; /* Highlight color for discipline titles */
+    margin-bottom: 5px; /* Space below titles */
+}
+
+/* Paragraph Styles */
+.discipline-item p {
+    color: #ffffff; /* White text for descriptions */
+    font-size: 0.9em; /* Font size for descriptions */
+    line-height: 1.5; /* Increased line height for readability */
+}
