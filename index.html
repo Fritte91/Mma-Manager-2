@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMA Manager 2 Fan Page</title>
+    <link rel="stylesheet" href="./css/styles.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="./css/components/navbar.css">
+    <link rel="stylesheet" href="./css/pages/calender.css">
+    <link rel="stylesheet" href="./css/components/footer.css">
+</head>
+<body>
+    <div id="navbar">
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./pages/getting-started.html">Getting Started</a></li>
+                <li>
+                    <a href="./pages/guides.html">Strategies & Guides</a>
+                    <ul class="dropdown">
+                        <li><a href="./pages/talents.html">Talents</a></li>
+                        <li><a href="./pages/talents.html">Disciplines</a></li>
+                        <li><a href="./pages/guides.html">Guide</a></li>
+                        <li><a href="./pages/build-fighter.html">Build Your Fighter</a></li>
+                    </ul>
+                </li>
+                <li><a href="./pages/gym-equipment.html">Gyms & Equipment</a></li>
+                <li><a href="./pages/Community-resources.html">Community Resources</a></li>
+            </ul>
+        </nav>
+    </div> <!-- Placeholder for the navbar -->
+
+    <header>
+        <h1>The Ultimate MMA Manager 2 Knowledge Hub</h1>
+        <p>Welcome to the fan page where you can find all the latest updates, guides, and community resources for MMA Manager 2!</p>
+    </header>
+
+    <section id="popular-tools">
+        <h2>Popular Tools and Features</h2>
+        <a href="./pages/talents.html" class="card">Disciplines & Talents</a>
+        <a href="./pages/build-fighter.html" class="card">Fighter Simulator</a>
+        <a href="./pages/guides.html" class="card">Guides</a>
+        <div class="carousel">Recent Updates/Featured Guides</div>
+    </section>
+
+    <section id="event-calendar">
+        <h2>Event Calendar</h2>
+        <div class="calendar">
+            <div class="calendar-header">
+                <button id="prev-week" onclick="changeWeek(-1)">&#9664;</button>
+                <h3 id="week-title">Week 1</h3>
+                <button id="next-week" onclick="changeWeek(1)">&#9654;</button>
+            </div>
+            <div class="calendar-body">
+                <div class="day">Monday</div>
+                <div class="day">Tuesday</div>
+                <div class="day">Wednesday</div>
+                <div class="day">Thursday</div>
+                <div class="day">Friday</div>
+                <div class="day">Saturday</div>
+                <div class="day">Sunday</div>
+            </div>
+            <div class="week-events" id="week-events">
+                <!-- Event items will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Post Section -->
+    <section id="blog-posts">
+        <h2>Latest Updates</h2>
+        <article class="post">
+            <h3>Update 1.18.4 - New Features and Bug Fixes</h3>
+            <p><strong>Date:</strong> October 10, 2023</p>
+            <p>We have introduced several new features and fixed various bugs to enhance your gaming experience. Check out the details below:</p>
+            <ul>
+                <li>New event: "Ultimate Fight Night"</li>
+                <li>Bug fixes for matchmaking issues</li>
+                <li>Adjustments to fighter stats for better balance</li>
+            </ul>
+            <button>Read More</button>
+        </article>
+
+        <article class="post">
+            <h3>Update 1.18.3 - Gameplay Adjustments</h3>
+            <p><strong>Date:</strong> September 25, 2023</p>
+            <p>In this update, we focused on gameplay adjustments to improve overall balance:</p>
+            <ul>
+                <li>Increased damage for certain fighters</li>
+                <li>Fixed issues with skill point allocation</li>
+            </ul>
+            <button>Read More</button>
+        </article>
+    </section>
+
+    <footer>
+        <h2>Quick Links</h2>
+        <p>Home | Simulator | Guides</p>
+        <h2>Community Section</h2>
+        <p>Links to Discord, game forums, or social media.</p>
+        <p>&copy; 2023 MMA Manager 2 Fan Page</p>
+    </footer>
+    <script src="./js/schedule.js"></script> <!-- Link to the consolidated schedule.js file -->
+</body>
+</html>

@@ -1,0 +1,145 @@
+/* General Styles for Gym Equipment Section */
+#gym-equipment {
+    background-color: #1c1c1c; /* Dark background for the section */
+    color: #ffffff; /* White text for better readability */
+    padding: 20px; /* Padding around the section */
+    border-radius: 10px; /* Rounded corners for the section */
+    margin: 20px 0; /* Margin around the section */
+}
+
+/* Section Headings */
+#gym-equipment h2 {
+    color: #ff4d4d; /* Highlight color for main heading */
+    text-align: center; /* Center align main heading */
+    margin-bottom: 15px; /* Space below main heading */
+    font-size: 2em; /* Larger font size for main heading */
+}
+
+#gym-equipment h3 {
+    color: #ff4d4d; /* Highlight color for subheadings */
+    margin-top: 30px; /* Space above subheadings */
+    margin-bottom: 10px; /* Space below subheadings */
+    font-size: 1.5em; /* Font size for subheadings */
+    text-align: left; /* Left align subheadings */
+}
+
+/* Equipment Category Styles */
+.equipment-category {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-around; /* Space items evenly */
+    margin-bottom: 30px; /* Space below each category */
+}
+
+/* Individual Equipment Item Styles */
+.equipment-item {
+    background-color: #2a2a2a; /* Dark background for items */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Padding inside items */
+    margin: 10px; /* Margin between items */
+    text-align: center; /* Center align text */
+    width: 30%; /* Set a width for each item */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    transition: transform 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Hover Effect for Equipment Items */
+.equipment-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Image Styles */
+.equipment-image {
+    width: 120px; /* Set a fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Space below images */
+    border-radius: 5px; /* Rounded corners for images */
+}
+
+/* Heading Styles */
+.equipment-item h4 {
+    color: #ff4d4d; /* Highlight color for headings */
+    margin-bottom: 5px; /* Space below headings */
+    font-size: 1.2em; /* Font size for equipment titles */
+}
+
+/* Paragraph Styles */
+.equipment-item p {
+    color: #ffffff; /* White text for descriptions */
+    font-size: 0.9em; /* Font size for descriptions */
+    line-height: 1.5; /* Increased line height for readability */
+}
+
+/* Additional Spacing for the Last Section */
+#gym-equipment p {
+    margin-top: 20px; /* Space above the final paragraph */
+    font-size: 1em; /* Font size for the final paragraph */
+    text-align: center; /* Center align final paragraph */
+}
+
+/* General Styles for Trainers Section */
+#fight-coaches, #gym-trainers {
+    background-color: #1c1c1c; /* Dark background for the section */
+    color: #ffffff; /* White text for better readability */
+    padding: 20px; /* Padding around the section */
+    border-radius: 10px; /* Rounded corners for the section */
+    margin: 20px 0; /* Margin around the section */
+}
+
+/* Section Heading */
+h2 {
+    color: #ff4d4d; /* Highlight color for heading */
+    text-align: center; /* Center align heading */
+    margin-bottom: 15px; /* Space below heading */
+    font-size: 2em; /* Larger font size for heading */
+}
+
+/* Table Styles */
+.trainers-table, .coaches-table {
+    width: 100%; /* Full width for the table */
+    border-collapse: collapse; /* Collapse borders for a cleaner look */
+    overflow-x: auto; /* Allow horizontal scrolling */
+    border-radius: 10px; /* Rounded corners for the table */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+/* Header Styles */
+.table-header {
+    display: flex; /* Flexbox for header */
+    background-color: #2a2a2a; /* Dark background for header */
+    color: #ffffff; /* White text */
+    padding: 10px; /* Padding for header */
+}
+
+.header-item {
+    flex: 0 0 auto; /* Fixed width for each header item */
+    font-weight: bold; /* Bold text for headers */
+    text-align: center; /* Center align text */
+    border: 1px solid #444; /* Border for header cells */
+}
+
+/* Body Styles */
+.table-body {
+    display: flex;
+    flex-direction: column; /* Column layout for body */
+}
+
+.trainer-item, .coach-item {
+    display: flex; /* Flexbox for trainer items */
+    background-color: #2a2a2a; /* Dark background for items */
+    padding: 10px; /* Padding for items */
+    margin: 5px 0; /* Margin between items */
+    border-radius: 5px; /* Rounded corners for items */
+}
+
+.trainer-name, .coach-name {
+    flex: 0 0 auto; /* Fixed width for name */
+    text-align: center; /* Center align text */
+    border: 1px solid #444; /* Border for cells */
+}
+
+.trainer-stat, .coach-stat {
+    flex: 0 0 auto; /* Fixed width for stats */
+    text-align: center; /* Center align text */
+    border: 1px solid #444; /* Border for cells */
+}
