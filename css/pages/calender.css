@@ -1,0 +1,59 @@
+/* Calendar Styles */
+#event-calendar {
+    margin: 20px 0; /* Margin around the calendar section */
+    text-align: center; /* Center align text */
+}
+
+.calendar {
+    display: inline-block; /* Center the calendar */
+    border: 2px solid #ec0909; /* Border around the calendar */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+}
+
+.calendar-header {
+    display: flex; /* Flexbox for header */
+    align-items: center; /* Center align items */
+    justify-content: center;
+    background-color: #1b1b1b;; /* Dark background for header */
+    color: #ffffff; /* White text */
+    padding: 10px; /* Padding for header */
+}
+.calendar-header button {
+    margin: 0 10px; /* Add some space around the buttons */
+}
+
+.calendar-body {
+    display: grid; /* Grid layout for days */
+    grid-template-columns: repeat(7, 1fr); /* 7 columns for days */
+    background-color: #3a3939; /* Darker background for body */
+}
+
+.day {
+    padding: 10px; /* Padding for each day */
+    font-weight: bold; /* Bold text for day names */
+    letter-spacing: 4px;
+    font-size: 20px;
+    color: #ffffff; /* White text */
+    border-bottom: 2px solid #ec0909; /* Bottom border for days */
+}
+
+.week-events {
+    display: grid; /* Grid layout for events */
+    grid-template-columns: repeat(7, 1fr); /* 7 columns for events */
+    background-color: #1c1c1c; /* Darker background for events */
+}
+
+.event {
+    padding: 10px; /* Padding for each event */
+    background-color: #2a2a2a; /* Darker background for events */
+    color: #ffffff; /* White text */
+    border: 1px solid #ff4d4d; /* Border around events */
+    border-radius: 5px; /* Rounded corners for events */
+    margin: 2px; /* Margin between events */
+    transition: background 0.3s; /* Smooth transition for hover */
+}
+
+.event:hover {
+    background-color: #ff4d4d; /* Change background on hover */
+}
