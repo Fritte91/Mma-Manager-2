@@ -1,0 +1,48 @@
+/* General Styles for Community Resources Section */
+#social-media {
+    background-color: #1c1c1c; /* Dark background for the section */
+    color: #ffffff; /* White text for better readability */
+    padding: 20px; /* Padding around the section */
+    border-radius: 10px; /* Rounded corners for the section */
+    margin: 20px 0; /* Margin around the section */
+    text-align: center; /* Center align text */
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: center; /* Center the icons */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.social-icon {
+    margin: 15px; /* Space between icons */
+    text-decoration: none; /* Remove underline from links */
+    color: #ffffff; /* White text */
+    text-align: center; /* Center align text */
+}
+
+.social-icon img {
+    width: 80px; /* Set a fixed width for icons */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s; /* Smooth transition for hover effects */
+}
+
+.social-icon:hover img {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+}
+
+.social-icon span {
+    display: block; /* Make the text a block element */
+    margin-top: 5px; /* Space above text */
+}
+
+/* Navbar Styles */
+#navbar {
+    position: fixed; /* Fix the navbar at the top */
+    top: 0; /* Align to the top */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it stays above other content */
+}

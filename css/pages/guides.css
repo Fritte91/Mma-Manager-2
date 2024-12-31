@@ -1,0 +1,76 @@
+/* General Styles for Guides */
+#guides {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the guides */
+    margin: 20px; /* Margin around the section */
+}
+
+/* Pill Shape Styles */
+.guide-pill {
+    background-color: #2a2a2a; /* Dark background */
+    color: #ffffff; /* White text */
+    border-radius: 25px; /* Pill shape */
+    padding: 15px 20px; /* Padding for the pill */
+    margin: 10px 0; /* Space between pills */
+    width: 80%; /* Width of the pill */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background 0.3s; /* Smooth background transition */
+    position: relative; /* Position relative for content */
+}
+
+/* Hover Effect */
+.guide-pill:hover {
+    background-color: #ff4d4d; /* Change background on hover */
+}
+
+/* Hidden Content Styles */
+.guide-content {
+    display: none; /* Initially hidden */
+    padding: 20px; /* Padding for content */
+    background-color: #1c1c1c; /* Darker background for content */
+    border-radius: 10px; /* Rounded corners for content */
+    margin-top: 10px; /* Space above content */
+    color: #ffffff; /* White text for content */
+    line-height: 1.5; /* Improved line spacing */
+}
+
+/* Style for strong elements in guide content */
+.guide-content strong {
+    color: #d9534f; /* Highlight skill names */
+}
+
+/* Style for paragraphs in guide content */
+.guide-content p {
+    margin-bottom: 15px; /* Space between paragraphs */
+    line-height: 1.6; /* Improved line spacing */
+    color: #ffffff; /* White text for better visibility */
+}
+
+/* Style for unordered lists */
+.guide-content ul {
+    padding-left: 20px; /* Indent the list */
+    margin: 10px 0; /* Space around the list */
+    color: #ffffff; /* White text for list items */
+}
+
+/* Style for ordered lists */
+.guide-content ol {
+    padding-left: 20px; /* Indent the list */
+    margin: 10px 0; /* Space around the list */
+    color: #ffffff; /* White text for list items */
+}
+
+/* Style for list items */
+.guide-content li {
+    margin-bottom: 10px; /* Space between list items */
+    line-height: 1.6; /* Improved line spacing */
+}
+
+/* Navbar Styles */
+#navbar {
+    position: fixed; /* Fix the navbar at the top */
+    top: 0; /* Align to the top */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it stays above other content */
+}

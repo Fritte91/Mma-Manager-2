@@ -1,0 +1,63 @@
+footer {
+    background-color: #121212; /* Dark background for footer */
+    color: #ffffff; /* White text for better readability */
+    padding: 20px 10px; /* Increased padding for a more spacious look */
+    text-align: center; /* Center align text */
+    border-top: 2px solid #ec0909; /* Top border for separation */
+}
+
+.footer-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out sections evenly */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    margin-bottom: 20px; /* Space below the container */
+}
+
+.footer-section {
+    flex: 1; /* Allow sections to grow */
+    min-width: 200px; /* Minimum width for sections */
+    margin: 10px; /* Margin around sections */
+    padding: 20px; /* Padding inside sections */
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent background */
+    border-radius: 8px; /* Rounded corners for sections */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.footer-section:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Darker background on hover */
+}
+
+.footer-section h2 {
+    color: #ff0505; /* Highlight color for section headings */
+    margin-bottom: 15px; /* Space below headings */
+    font-size: 1.5em; /* Larger font size for headings */
+    text-transform: uppercase; /* Uppercase for headings */
+}
+
+.footer-section ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.footer-section ul li {
+    margin: 8px 0; /* Space between list items */
+}
+
+.footer-section a {
+    color: #ffffff; /* White text for links */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s; /* Smooth transition for link color */
+}
+
+.footer-section a:hover {
+    color: #ff4d4d; /* Change color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+.footer-copyright {
+    margin-top: 20px; /* Space above copyright text */
+    font-size: 0.9em; /* Smaller font size for copyright */
+    color: #cccccc; /* Lighter color for copyright text */
+    border-top: 1px solid #ec0909; /* Top border for separation */
+    padding-top: 10px; /* Padding above copyright text */
+}

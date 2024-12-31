@@ -1,0 +1,79 @@
+/* General Section Styles */
+section {
+    padding: 30px; /* Increased padding for a more spacious feel */
+    margin: 20px 0; /* Margin between sections */
+    background-color: #2a2a2a; /* Dark background for sections */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+
+    background-color: #1b1b1b; /* Dark background for the blog section */
+    background-color: rgb(0 0 0 / 0.7);
+}
+
+/* Heading Styles */
+h2 {
+    font-size: 2em; /* Larger font size for section headings */
+    margin-bottom: 15px; /* Space below headings */
+    color: #ff4d4d; /* Highlight color for headings */
+    text-align: center; /* Center align headings */
+    text-transform: uppercase; /* Uppercase for emphasis */
+    letter-spacing: 1px; /* Slightly increased letter spacing */
+    background: -webkit-linear-gradient(orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 40px;
+    letter-spacing: 5px;
+}
+
+/* Ensure that section headings are distinct from footer headings */
+section h2 {
+    font-size: 2em; /* Keep this for section headings */
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 1.3em; /* Slightly larger font size for paragraphs */
+    line-height: 1.9; /* Increased line height for readability */
+    margin-bottom: 20px; /* Space below paragraphs */
+    text-align: center; /* Justify text for a cleaner look */
+    
+}
+.ul {
+    justify-content: center;
+}
+
+/* Content List Styles */
+.content-list {
+    margin-left: 0; /* Reset margin for content lists */
+    padding-left: 20px; /* Indent lists */
+    list-style-type: disc; /* Use disc bullets */
+    
+}
+
+/* Footer Styles */
+/*footer {
+    background-color: #2a2a2a;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Navbar Styles */
+#navbar {
+    position: fixed; /* Fix the navbar at the top */
+    top: 0; /* Align to the top */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+strong {
+    color: #00b4d8; /* Change this to your desired color */
+    font-size: 1.2em; /* Adjust the size to make it larger, e.g., 1.2 times the normal font size */
+}

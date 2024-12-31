@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guides - MMA Manager 2</title>
+    <link rel="stylesheet" href="../css/styles.css"> <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="../css/components/navbar.css">
+    <link rel="stylesheet" href="../css/components/footer.css">
+    <link rel="stylesheet" href="../css/pages/guides.css"> <!-- Link to guides-specific styles -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bowlby+One+SC&family=Chango&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/7a82b1fabe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="nav-links" id="navbar"></div> <!-- Placeholder for navbar -->
+
+    <header>
+        <h1>Guides in MMA Manager 2</h1>
+        <p>Explore various guides to enhance your gameplay.</p>
+    </header>
+
+    <section id="guides">
+        <div class="guide-pill" onclick="toggleGuide(this)">
+            <h3>Unlock Fighting Moves</h3>
+            <div class="guide-content">
+                <p>
+                    <strong>Punch</strong><br>
+                    60    → Hook<br>
+                    150   → Cross<br>
+                    220   → Clinch hook<br>
+                    420   → Side mount retaliate punch<br>
+                    700   → Full guard back punch<br>
+                    860   → Uppercut<br>
+                    1220 → Overhand punch<br>
+                    1430 → Clinch uppercut<br>
+                    1880 → Top mount retaliate punch<br>
+                    2120 → Power punch<br>
+                    2380 → Superman punch<br>
+                </p>
+                <p>
+                    <strong>Elbow</strong><br>
+                    1450 → Muaythai clinch elbow<br>
+                </p>
+                <p>
+                    <strong>Knee</strong><br>
+                    450 → Muaythai clinch knee<br>
+                    950 → Aggressive knee<br>
+                </p>
+                <p>
+                    <strong>Low kick</strong><br>
+                    150   → Front kick<br>
+                    300  → Push kick<br>
+                    600  → Taekwondo defensive low kick<br>
+                    1100 → Muaythai leg kick<br>
+                    1700 → Taekwondo side kick<br>
+                </p>
+                <p>
+                    <strong>High kick</strong><br>
+                    150   → High kick<br>
+                    300  → Roundhouse kick<br>
+                    600  → Capoeira spinning mid kick<br>
+                    1100 → Muaythai axe kick<br>
+                    1700 → Taekwondo bolley high kick<br>
+                </p>
+                <p>
+                    <strong>Takedown</strong><br>
+                    200  → Throw<br>
+                    500   → Single-leg takedown<br>
+                    1200  → Whizzer throw<br>
+                </p>
+                <p>
+                    <strong>Submission</strong><br>
+                    500 → Kimura<br>
+                </p>
+                <p>
+                    <strong>Ground Grappling</strong><br>
+                    1000 → Ground sweep reverse<br>
+                    1500 → Great reversal<br>
+                </p>
+            </div>
+        </div>
+        <div class="guide-pill" onclick="toggleGuide(this)">
+            <h3>Just Getting Started Guide</h3>
+            <div class="guide-content">
+                <ol>
+                    <li>When you first get started, be very careful not to waste any resources, mainly credits and Focus. They are incredibly valuable in the long run and won't come as easily as when you're first starting.</li>
+                    <li>Credits can be used to upgrade rings and base stat equipment (+ unlocking talents later). A good rule of thumb is to at least upgrade one ring, one speed bag (Agility), one training bike (Conditioning), and one dumbbell (strength) to the fullest. The shorter training times are such a lifesaver, especially when your fighter gets higher and higher in level, you won't have to wait for 3-5 mins on every training.</li>
+                    <li>Mental points need to be saved as much as possible and only invested in your main fighter (at the beginning). There are basically tiers when it comes to the boosts available: Tier 1 (Best): Initiative + Health Tier 2 (Great): Block Chance + Hit Chance. Other boosts come lower, with health regeneration being the least important of them. So when building your main fighter, it's definitely worth it to invest mental points in agility and health first, then you can choose from the rest depending on your build's needs.</li>
+                    <li>Don't put all of your eggs in one basket (don't hyper-fixate on upgrading one type of equipment or giving one fighter all of your mental points boosts, try to boost your gym gradually).</li>
+                    <li>Try to give each fighter a unique build, fighters are divided into these categories:
+                        <ul>
+                            <li>A) Ground fighters:
+                                <ul>
+                                    <li>Wrestlers</li>
+                                    <li>Submission Artists</li>
+                                </ul>
+                            </li>
+                            <li>B) Strikers:
+                                <ul>
+                                    <li>Boxers</li>
+                                    <li>Kickboxers (High kick + punch or Low Kick + Punch)</li>
+                                    <li>Kickers (either low kick or high kick)</li>
+                                </ul>
+                            </li>
+                            <li>C) Clinchers:
+                                <ul>
+                                    <li>Punch clinch</li>
+                                    <li>Elbow clinch</li>
+                                    <li>Knee clinch</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>What to look for in a discipline card?
+                        <ul>
+                            <li>Agility (fight winner hands down)</li>
+                            <li>Conditioning (better than health boosts since the former also helps with takedown def, clinch def, sub def, and gg)</li>
+                            <li>Health boosts</li>
+                            <li>Combo chance</li>
+                            <li>Critical chance</li>
+                            <li>Critical damage</li>
+                        </ul>
+                    </li>
+                    <li>Don't spread your points too soon: a lot of people know what their overall build should look like, but they start adding points left and right instead of concentrating them on the main skills of the build.</li>
+                    <li>For example, a wrestler at level 12 should have points in gg, takedowns, clinch, sub def, strike def, kick def, and punch/elbows. If you try to spread your points at level 6 for all these categories, you'll be left with an average fighter that gets smashed left and right. It's better to put most of the points in gg and takedowns in the beginning, then slowly and gradually fill out the other skills.</li>
+                    <li>Try to get your fighters as high in the pro league as you can. The pro league grants you a lot of valuable rewards, especially the credits as they seriously add up with time (and GC tickets as well). So get your fighters as far in the pro league as you can.</li>
+                    <li>You can train your fighters to lvl 5 easily without needing to wait for stamina, so it's a good starting point to see how you fair in tournaments and pro league.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="guide-pill" onclick="toggleGuide(this)">
+            <h3>Farmin Cash & Prestige</h3>
+            <div class="guide-content">
+                <p><strong>FARMING CASH AND PRESTIGE</strong></p>
+    <p>The easiest way to farm Cash and prestige is to finish the campaign and watch ads after you beat your opponent in each stage. Maybe a little boring. But believe me, this will really help us to get Cash and prestige quickly.</p>
+    
+    <p><strong>Farming scrolls</strong></p>
+    <p>There are 2 ways to get scrolls for free:</p>
+    <ol>
+        <li><strong>Daily Quest:</strong> Every day you will get 2 scrolls from the daily quest.</li>
+        <li><strong>Fight Club:</strong> The number of scrolls you get varies depending on the level of the fighter registered. If you win, you will get:
+            <ul>
+                <li>Lv3 - Lv5 = 1 scroll</li>
+                <li>Lv6 - Lv9 = 2 scrolls</li>
+                <li>Lv10 - Lv12 = 3 scrolls</li>
+            </ul>
+        </li>
+    </ol>
+    <p>And not just get the scrolls. You will get Cash and common talent coins (which work to unlock common talents). I suggest using your fighter with full skills and Base points at each level (to have a higher chance to win the fight club).</p>
+            </div>
+        </div>
+        <!-- Add more guides as needed -->
+        <div class="guide-pill" onclick="toggleGuide(this)">
+            <h3>Tournament</h3>
+            <div class="guide-content">
+                <p><strong>☆ Each player gets 2 tickets every week (Monday at 00:00 UTC+0)</strong></p>
+                <p>☆ The registration time lasts for 24 hours since registration is open.</p>
+                <p>☆ Lv5 is the minimum fighter's level to register for a tournament.</p>
+                <p>☆ In 1 tournament bracket, there are 32 fighters.</p>
+                <p>☆ Fighters registered in the tournament cannot be trained. But your fighter will get bonus skill points when they go home.</p>
+                <p><strong>☆ Tournament rewards that are unclaimed at the end of the week get discarded.</strong></p>
+                
+                <p><strong>NOTE:</strong></p>
+                <p>☆ It is very important to increase your Base skill (strength, condition, agility). Every time you increase your level, you must immediately max your Base skill. Otherwise, your fighter will be difficult to win the fight.</p>
+            </div>
+        </div>
+        <div class="guide-pill" onclick="toggleGuide(this)">
+            <h3>Different Builds</h3>
+            <div class="guide-content">
+                <p>You can always come up with your own build; those are for learning purposes and from a player’s point of view.</p>
+    
+    <p><strong>1) Clinchers:</strong></p>
+    <p><strong>☆ Strong points:</strong></p>
+    <ul>
+        <li>Supported by the majority of the talents</li>
+        <li>Supported by a large number of disciplines</li>
+        <li>Can use lower strike and kick defense due to time spent in the clinch.</li>
+    </ul>
+    <p><strong>☆ Weak points:</strong></p>
+    <ul>
+        <li>More vulnerable to takedowns than strikers as the clinch facilitates takedowns.</li>
+    </ul>
+
+    <p><strong>2) Wrestlers:</strong></p>
+    <p><strong>☆ Strong points:</strong></p>
+    <ul>
+        <li>Can use lower strike and kick defense due to time spent on the ground</li>
+        <li>Can use little to no attack points (only the ground matters)</li>
+        <li>Most people have their default gameplans set to offensive or off all-in, which weakens takedown defense and allows you to take advantage further (whether in fight club or pro league)</li>
+    </ul>
+    <p><strong>☆ Weak points:</strong></p>
+    <ul>
+        <li>Can only seriously hurt opponents on the ground, so if the takedown doesn't come, you're done.</li>
+        <li>Major problems with taking down clinchers, especially when in the clinch. The huge amount of takedown defense boosters makes it really hard for wrestlers in the endgame.</li>
+    </ul>
+
+    <p><strong>3) Boxers:</strong></p>
+    <p><strong>☆ Strong points:</strong></p>
+    <ul>
+        <li>The punch is the easiest strike to land (70-80% precision) and directly benefits from agility/initiative boosts</li>
+        <li>Supported well by a lot of discipline cards and talents</li>
+        <li>Benefits from every striking boost, whether it's combo chance, critical chance, critical damage, or hit chance.</li>
+        <li>Can land from any position (Standing, ground, clinch)</li>
+        <li>Leaves plenty of points to defenses and consequently doesn't have any major anti-build.</li>
+    </ul>
+    <p><strong>☆ Weak points:</strong></p>
+    <ul>
+        <li>One dimensional</li>
+    </ul>
+
+    <p><strong>4) Kickers:</strong></p>
+    <p><strong>☆ Strong points:</strong></p>
+    <ul>
+        <li>Very high critical damage, can one-shot / two-shot opponents or get a KO at any time</li>
+        <li>Can be content with sitting back and defending / eating shots then unloading a +200 damage attack.</li>
+    </ul>
+    <p><strong>☆ Weak points:</strong></p>
+    <ul>
+        <li>High loss of initiative after missing</li>
+        <li>Harder to land than punches</li>
+        <li>Susceptible to both takedowns and the clinch</li>
+    </ul>
+
+    <p><strong>5) Kickboxers:</strong></p>
+    <p><strong>☆ Strong points:</strong></p>
+    <ul>
+        <li>Combines both boxer and kicker perks, works really well with critical boosts</li>
+        <li>Ability to crack opponents by varied attacks</li>
+        <li>Unpredictability as you can turn them into a kicker or a boxer for any fight</li>
+    </ul>
+    <p><strong>☆ Weak points:</strong></p>
+    <ul>
+        <li>Endgame build will have a deficit in strike and kick defense</li>
+        <li>Most fights at level 12 end by decision, so the decreased defense could backfire if you don't get a KO.</li>
+    </ul>
+
+    <p>There are 10 disciplines in this game. Each discipline has a different passive. Use discipline with a passive that is useful for your fighter. You can unlock disciplines by reaching Chapter 20 in the Manager Journey.</p>
+    
+    <p><strong>Example:</strong></p>
+    <ul>
+        <li>a. Boxing (punch) = boxing, kravmaga, karate, sambo</li>
+        <li>b. Taekwondo (high kick) = taekwondo (Required), karate, kravmaga, sambo</li>
+        <li>c. Kickboxing (low kick) = kickboxing, sambo, karate, kravmaga</li>
+        <li>d. Muaythai (clinch) = muaythai, karate, kravmaga, sambo</li>
+        <li>e. BJJ = bjj, wrestling, judo</li>
+        <li>f. Ground N pound = wrestling, judo, boxing (if you use punch attack), sambo</li>
+    </ul>
+    
+    <p>Each fighter can use 2 discipline cards. So choose the right one...</p>
+    
+    <p>The discipline effect is only activated when the discipline card reaches level 3. Then each successive level increases the effect.</p>
+    
+    <p>Higher stats for legendary cards.</p>
+            </div>
+        </div>
+        <div class="guide-pill" onclick="toggleGuide(this)">
+            <h3>Guide Title 6</h3>
+            <div class="guide-content">
+                <p>This is the content for Guide Title 3. Here you can provide detailed information about the guide.</p>
+            </div>
+        </div>
+        <!---- add more guides like this : -------->
+        <!------ all of this div to make a new guide pill-->
+    </section>
+
+    <footer id="footer"></footer> <!-- Placeholder for footer -->
+    <script src="../js/loading-components.js"></script>
+    <script src="../js/pages/guides.js"></script> <!-- Include the JavaScript file -->
+</body>
+</html>

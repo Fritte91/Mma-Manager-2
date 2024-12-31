@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disciplines - MMA Manager 2</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/pages/disciplines.css">
+    <link rel="stylesheet" href="../css/components/navbar.css">
+    <link rel="stylesheet" href="../css/components/footer.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bowlby+One+SC&family=Chango&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/7a82b1fabe.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="nav-links" id="navbar"></div> <!-- Placeholder for navbar -->
+
+    <header>
+        <h1>Disciplines in MMA Manager 2</h1>
+        <p>Explore the various disciplines available to enhance your fighters' abilities.</p>
+    </header>
+
+    <div class="discipline-category" id="common-disciplines">
+        <h2>Common Disciplines</h2>
+        <div id="common-disciplines-list" class="discipline-grid"></div>
+    </div>
+    
+    <div class="discipline-category" id="epic-disciplines">
+        <h2>Epic Disciplines</h2>
+        <div id="epic-disciplines-list" class="discipline-grid"></div>
+    </div>
+    
+    <div class="discipline-category" id="legendary-disciplines">
+        <h2>Legendary Disciplines</h2>
+        <div id="legendary-disciplines-list" class="discipline-grid"></div>
+    </div>
+
+
+    <section class="section" id="disciplines">
+        <h2>Disciplines information</h2>
+        <p>Understanding About Different Disciplines Cards Are Crucial :</p>
+        <h3 class="toggle-header"><i class="fa-solid fa-play"></i>  Unlocking :</h3>
+        <ul class="toggle-content">
+            <li>Disciplines are avaible after completing chapter 7 of the main story.</li>
+            <li>Disciplines are cards representing martial arts that, when equipped to a fighter grant them bonus effects and fighting statistics.</li>
+            <li>Each fighter will individually unlock the ability to equip a dscipline when reaching fighter level 4. The fighters Unlock the ability to equip a second discipline when reaching fighter level 8.</li>
+        </ul>
+
+        <h3 class="toggle-header"><i class="fa-solid fa-play"></i>  Drawing :</h3>
+        <ul class="toggle-content">
+            <li>Discipline cards are obtained at random by using knowledge scrolls. When drawing a discipline card, it can be either of rarity common, epic or legendary. Cards of higher rarity feature better attributes and can be upgraded further.</li>
+            <li>Knowledge scrolls can be bought for Creditcs. They can also be obtained through: Daily Tasks, Fight Club rewards, Tournament rewards.</li>
+            <li>After using 100 knowledge scrolls, you will earn a legendary knowledge scroll. When using a legendary scroll, you are guaranteed to draw a legendary card.</li>
+            <li>All the cards drawn can be browsed in the collection. From there, you can perform any action related to discipline cards: recycling, upgrading, (un)equipping.</li>
+            <li>Discipline cards of epic and legendary rarities can also be bought from the discipline store.</li>
+        </ul>
+
+        <h3 class="toggle-header"><i class="fa-solid fa-play"></i>  Recycling :</h3>
+        <ul class="toggle-content">
+            <li>Discipline cards can be recycled. That means they are deleted, but you will get an amount of discipline points that depends on the card star level.</li>
+            <li>REcycling a legendary card will also grant Reroll tokens.</li>
+            <li>Discipline points are specific to a rarity, and are used to upgrade discipline cards of the rarity.</li>
+        </ul>
+
+        <h3 class="toggle-header"><i class="fa-solid fa-play"></i>  Upgrade :</h3>
+        <ul class="toggle-content">
+            <li>Upgrading discipline cards will be vital for the success of your fighter.</li>
+            <li>Discipline cards can be upgraded. Common, Epic and legendary discipline cards can be upgraded respectively to levels 3, 4 and 5.</li>
+            <li>When gaining a level, a discipline card gets a new random statistic.</li>
+            <li>Discipline cards can be re-rolled when at maximum level. When re-rolling, you can choose one single statistic attached to this card and roll another statistic at random. You will get to choose a new statistic among 3 choices. You can also decide to keep the previous statistic.</li>
+            <li>Rerolling cards on common and epic rarities cost credits. Rerolling cards of legendary discipline cost a reroll token.</li>
+            <li>Legendary discipline cards can be boosted when at maximum level. When boosting you can choose one single stastic attached to this card and increase its value. The new value cannot exceed the set of maximum for the selected statistic.</li>
+            <li>Boosting a discipline card cost Boost Tokens, which are obtained after reading enough legendary scrolls.</li>
+        </ul>
+
+        <h3 class="toggle-header"><i class="fa-solid fa-play"></i>  Equipping :</h3>
+        <ul class="toggle-content">
+            <li>Each discipline card can be equipped to one single fighter. Once equipped the discipline effect and statistics will take effect in all fights.</li>
+            <li>Each discipline has its specific effect, unlocked for the fighter when the card reaches level 3. Discipline cards below level 3 will have the effects of the stats, but not their discipline effect.</li>
+            <li>A fighter can not have 2 cards of the same discipline equipped.</li>
+        </ul>
+
+        <h3 class="toggle-header"><i class="fa-solid fa-play"></i>  Max Attribute Stats :</h3>
+        <ul class="toggle-content">
+            <li>Agility % MAX = 14%</li>
+            <li>Condition % MAX = 14%</li>
+            <li>Strength % MAX = 14%</li>
+            <li>Agility + Points MAX = 215.6</li>
+            <li>Condition + Points MAX = 215.6</li>
+            <li>Strength + Points MAX = 215.6</li>
+            <li>Health % MAX = 25%</li>
+            <li>Takedown Skill % MAX = 10%</li>
+            <li>Clinchwork % MAX = 10%</li>
+            <li>Hit Chance % MAX = 2.5%</li>
+            <li>Critical Hit Chance % MAX = 12%</li>
+
+        </ul>
+
+        <h3 class="toggle-header"><i class="fa-solid fa-play"></i>  Attribute Boost :</h3>
+        <ul class="toggle-content">
+            <li>Agility % Boost is worth 0.4% MAX = 14%</li>
+            <li>Condition % Boost is worth 0.4% MAX = 14%</li>
+            <li>Strength % Boost is worth 0.4% MAX = 14%</li>
+            <li>Agility + Boost is worth 5.5 Points MAX = 215.6</li>
+            <li>Condition + Boost is worth 5.5 Points MAX = 215.6</li>
+            <li>Strength + Boost is worth 5.5 Points MAX = 215.6</li>
+            <li>Health % Boost is worth 1% MAX = 25%</li>
+            <li>Takedown skill % Boost is worth 0.3% MAX = 10%</li>
+            <li>Clinchwork skill % Boost is worth 0.3% MAX = 10%</li>
+            <li>Hit chance % Boost is worth 0.09% MAX = 2.5%</li>
+            <li>Critical Hit Chance % Boost is worth 0.4% MAX = 12%</li>
+        </ul>
+        
+    </section>
+    <footer id="footer"></footer> <!-- Placeholder for footer -->
+    <script src="../js/loading-components.js"></script>
+    <script src="../js/data/disciplinesData.js"></script> <!-- Include the data file -->
+<script src="../js/pages/disciplines.js"></script> <!-- Include the script to populate the disciplines -->
+</body>
+</html>

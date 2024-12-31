@@ -1,0 +1,206 @@
+/* General Styles for Disciplines Section */
+#disciplines {
+    background-color: #1c1c1c; /* Dark background for the section */
+    color: #ffffff; /* White text for better readability */
+    padding: 20px; /* Padding around the section */
+    border-radius: 10px; /* Rounded corners for the section */
+    margin: 20px 0; /* Margin around the section */
+}
+
+/* Section Headings */
+#disciplines h2 {
+    color: #00b4d8; /* Highlight color for main heading */
+    text-align: center; /* Center align main heading */
+    margin-bottom: 15px; /* Space below main heading */
+    font-size: 2em; /* Larger font size for main heading */
+}
+
+.discipline-category {
+    margin-bottom: 30px; /* Space below each category */
+}
+
+.discipline-category h3 {
+    color: #ff4d4d; /* Highlight color for subheadings */
+    margin-top: 20px; /* Space above subheadings */
+    font-size: 1.5em; /* Font size for subheadings */
+}
+
+/* Discipline Grid */
+.discipline-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center items */
+    gap: 10px; /* Space between items */
+}
+
+.discipline-item {
+    background-color: #2a2a2a; /* Dark background for items */
+    border-radius: 5px; /* Rounded corners */
+    padding: 0; /* Remove padding inside items */
+    margin: 10px; /* Margin between items */
+    text-align: center; /* Center align text */
+    width: 160px; /* Set a fixed width for each item */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    position: relative; /* Position for hover effect */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.discipline-item:hover {
+    transform: scale(1.05); /* Slightly grow the card */
+}
+
+/* Glow effects for different categories */
+#common-disciplines .discipline-item:hover {
+    box-shadow: 0 0 15px grey; /* Grey glow for common */
+}
+
+#epic-disciplines .discipline-item:hover {
+    box-shadow: 0 0 15px purple; /* Purple glow for epic */
+}
+
+#legendary-disciplines .discipline-item:hover {
+    box-shadow: 0 0 15px orange; /* Orange glow for legendary */
+}
+
+.discipline-header {
+    background-color: rgba(0, 0, 0, 0.7); /* Dark background for header */
+    color: #ff4d4d; /* Highlight color for text */
+    padding: 5px; /* Padding for header */
+    border-radius: 5px 5px 0 0; /* Rounded corners for the top */
+    font-weight: bold; /* Bold text */
+    font-size: 1em; /* Font size for header */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Subtle shadow for header */
+}
+
+.discipline-rating {
+    font-size: 1.2em; /* Size for star icons */
+    color: gold; /* Color for stars */
+    margin: 5px 0; /* Space around the rating */
+}
+
+.discipline-description {
+    color: #fff; /* White text for descriptions */
+    font-size: 0.8em; /* Smaller font size for descriptions */
+    line-height: 1.5; /* Increased line height for readability */
+    padding: 5px; /* Padding for description */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Subtle shadow for description */
+}
+
+/* Detailed Description */
+.discipline-detailed-description {
+    margin-top: 10px; /* Space above detailed description */
+    color: #ffffff; /* White text for detailed description */
+    font-size: 0.9em; /* Smaller font size for detailed description */
+}
+
+/* Show description on hover */
+.discipline-item:hover .discipline-description {
+    display: block; /* Show description on hover */
+}
+
+/* Heading Styles */
+.discipline-item h4 {
+    color: #ff4d4d; /* Highlight color for discipline titles */
+    margin-bottom: 5px; /* Space below titles */
+}
+
+/* Paragraph Styles */
+.discipline-item p {
+    color: #ffffff; /* White text for descriptions */
+    font-size: 0.9em; /* Font size for descriptions */
+    line-height: 1.5; /* Increased line height for readability */
+}
+
+/* Navbar Styles */
+#navbar {
+    position: fixed; /* Fix the navbar at the top */
+    top: 0; /* Align to the top */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+/* Center and style the headings */
+.discipline-category h2 {
+    text-align: center; /* Center align the headings */
+    margin-bottom: 15px; /* Space below headings */
+}
+
+#common-disciplines h2 {
+    color: grey; /* Color for Common Disciplines */
+    font-size: 40px;
+    letter-spacing: 5px;
+    background: -webkit-linear-gradient(rgb(159, 159, 163), rgb(52, 51, 54));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#epic-disciplines h2 {
+    color: purple; /* Color for Epic Disciplines */
+    font-size: 40px;
+    letter-spacing: 5px;
+    background: -webkit-linear-gradient(rgb(252, 3, 198), rgb(109, 9, 109));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#legendary-disciplines h2 {
+    color: orange; /* Color for Legendary Disciplines */
+    font-size: 40px;
+    letter-spacing: 5px;
+    background: -webkit-linear-gradient(orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Common Bonus Color */
+.common-bonus {
+    color: grey; /* Color for Common Bonuses */
+}
+
+/* Epic Bonus Color */
+.epic-bonus {
+    color: purple; /* Color for Epic Bonuses */
+}
+
+/* Legendary Bonus Color */
+.legendary-bonus {
+    color: orange; /* Color for Legendary Bonuses */
+}
+
+.section {
+    font-size: 18px;
+    letter-spacing: 5px;
+    padding: 30px; /* Increased padding for a more spacious feel */
+    margin: 20px 0; /* Margin between sections */
+    background-color: #f00909; /* Dark background for sections */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+
+    /*background-color: #e91313; /* Dark background for the blog section */
+    background-color: rgb(0 0 0 / 0.5);
+}
+
+.toggle-content {
+    display: none; /* Hidden by default */
+    margin: 10px 0;
+    padding-left: 20px; /* Indent list items slightly */
+    border-left: 2px solid #444; /* Optional: Add a visual indicator */
+}
+
+.toggle-header {
+    cursor: pointer; /* Change cursor to pointer for clickable headers */
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    transition: color 0.3s ease; /* Add hover effect */
+    
+}
+
+.toggle-header:hover {
+    color: #ff9800; /* Change color on hover */
+}
+
+.fa-solid {
+    color: gold;
+}

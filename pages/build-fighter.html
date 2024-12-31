@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fighter Skill Builder</title>
+    <link rel="stylesheet" href="../css/pages/build-fighter.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/components/navbar.css">
+    <link rel="stylesheet" href="../css/components/footer.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bowlby+One+SC&family=Chango&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/7a82b1fabe.js" crossorigin="anonymous"></script>
+</head>
+<div class="nav-links" id="navbar"></div> <!-- Placeholder for navbar -->
+    <div class="container">
+        <h1>Fighter Skill Builder</h1>
+        <div class="content">
+            <div class="model-container">
+                <img src="../images/fighterpic.png" alt="Fighter Model" id="fighter-model">
+                <div class="level-indicator">Max Level: <span id="max-level">12</span></div>
+                
+                <!-- New Stats Section -->
+                <div class="stats-container">
+                    <div class="stat">
+                        <div class="stat-name">Agility</div>
+                        <input type="range" min="0" max="3400" value="3400" class="stat-bar" id="agility-bar">
+                    </div>
+                    <div class="stat">
+                        <div class="stat-name">Condition</div>
+                        <input type="range" min="0" max="3400" value="3400" class="stat-bar" id="condition-bar">
+                    </div>
+                    <div class="stat">
+                        <div class="stat-name">Strength</div>
+                        <input type="range" min="0" max="3400" value="3400" class="stat-bar" id="strength-bar">
+                    </div>
+                    <div class="stat">
+                        <div class="stat-name">Health</div>
+                        <div class="stat-value" id="health-value">2,199</div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-wrapper">
+                <div id="skills-container"></div>
+                <div class="total-points">Total Points: <span id="total-points">0</span>/19,000</div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer"></footer> <!-- Placeholder for footer -->
+    <script src="../js/loading-components.js"></script>
+    <script src="../js/pages/build-fighter.js"></script>
+</body>
+</html>
